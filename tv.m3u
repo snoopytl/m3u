@@ -14,8 +14,6 @@ http://192.168.5.11:7088/rtp/239.253.92.82:8013
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视高清频道",CCTV6
 http://192.168.5.11:7088/rtp/239.253.92.193:6058
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视高清频道",CCTV7
-http://192.168.5.11:7088/rtp/239.253.93.86:6252
-#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视高清频道",CCTV7
 http://192.168.5.11:7088/rtp/239.253.92.194:6059
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视高清频道",CCTV8
 http://192.168.5.11:7088/rtp/239.253.92.195:6060
@@ -23,20 +21,14 @@ http://192.168.5.11:7088/rtp/239.253.92.195:6060
 http://192.168.5.11:7088/rtp/239.253.92.107:6020
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视高清频道",CCTV10
 http://192.168.5.11:7088/rtp/239.253.93.87:6253
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视高清频道",CCTV10
-http://192.168.5.11:7088/rtp/239.253.92.196:6061
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" group-title="央视高清频道",CCTV11
 http://192.168.5.11:7088/rtp/239.253.93.153:6321
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="央视高清频道",CCTV12
-http://192.168.5.11:7088/rtp/239.253.93.88:6254
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="央视高清频道",CCTV12
 http://192.168.5.11:7088/rtp/239.253.92.197:6062
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视高清频道",CCTV13
 http://192.168.5.11:7088/rtp/239.253.92.13:8008
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视高清频道",CCTV14
 http://192.168.5.11:7088/rtp/239.253.93.89:6255
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视高清频道",CCTV14
-http://192.168.5.11:7088/rtp/239.253.92.198:6063
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视高清频道",CCTV15
 http://192.168.5.11:7088/rtp/239.253.93.154:6322
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视高清频道",CCTV16
