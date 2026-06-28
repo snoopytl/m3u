@@ -24,11 +24,11 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add kuwang.m3u
+          git add ku.m3u
           
           # 检查是否有暂存的更改
           if ! git diff --staged --quiet; then
-            git commit -m "Auto-update kuwang.m3u from upstream"
+            git commit -m "Auto-update ku.m3u from upstream"
             git push
             echo "Successfully updated and pushed ku.m3u"
           else
