@@ -1,0 +1,36 @@
+name: Auto Sync kuwang.m3u
+
+# 触发条件
+on:
+  schedule:
+    - cron: '0 */6 * * *' # 定时任务：每 6 小时执行一次 (UTC时间)
+  workflow_dispatch: # 允许在 GitHub 网页端手动点击按钮触发，方便测试
+
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 拉取你的仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. 下载目标 m3u 文件并命名为 kuwang.m3u
+      - name: Download latest m3u file
+        run: |
+          curl -o kuwang.m3u https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
+
+      # 3. 检查文件是否有变动，并提交推送
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add kuwang.m3u
+          
+          # 检查是否有暂存的更改
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update kuwang.m3u from upstream"
+            git push
+            echo "Successfully updated and pushed kuwang.m3u"
+          else
+            echo "No changes detected, skipping commit."
+          fi
