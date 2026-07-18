@@ -17,7 +17,7 @@ jobs:
       # 2. 下载目标 m3u 文件并命名为 ku.m3u
       - name: Download latest m3u file
         run: |
-          curl -o ku.m3u https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
+          curl -o ku.m3u https://live.445569.xyz/live.m3u
 
       # 3. 检查文件是否有变动，并提交推送
       - name: Commit and Push changes
